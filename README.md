@@ -40,39 +40,40 @@ contract MyToken {
     uint public total_Supply=0;
 
     // mapping variable here
-   mapping(address => uint) public balances;
+      mapping(address => uint) public balances;
    
     // mint function
-   function mint(address _address, uint _value) public {
-   balances[_address]+=_value;
-   total_Supply+= _value;
-   }
+      function mint(address _address, uint _value) public {
+      balances[_address]+=_value;
+      total_Supply+= _value;
+     }
    
    // burn function
-
    function burn(address _address, uint _value) public {
     if(balances[_address]>=_value)
     {
-    balances[_address] -= _value;
-    total_Supply -=  _value;
+     balances[_address] -= _value;
+     total_Supply -=  _value;
     }
  }
 }
 
 
+
+
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, then click the "Deploy" button.
 
 Once the contract is deployed, you can interact with it by following the below mentioned steps:
 
-1 Pasting the  same account address in mint address,burn address and balance address.
+1 Pasting the  same account address in mint address, burn address, and balance address.
 
 2 Input the mint value and click on transact.
 
-3.Input the burn value and click on transact.
+3. Input the burn value and click on transact.
 
-4.At last check the total supply after the complete execution of the program.
+4. At last check the total supply after the complete execution of the program.
 
 For example:
 
