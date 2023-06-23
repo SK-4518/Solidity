@@ -3,17 +3,15 @@
 This Solidity program is a mint and burn program where we provide some required variables in to get the resultant total supply after the successful execution of the program. The main idea is to get hands-on experience in working with the Solidity programming language. 
 
 
-## Description
+## Code Logic
 1. This program is a simple contract written in Solidity.
 2. It has public variables that store the details about your coin.
 3. A mapping of addresses to balances.
 4. Mint function performs the addition of the total supply and the balance of the address with that amount.
-5. Burn function will destroy tokens.It will then subtract the value from the total supply and the address's balance.
-6. Lastly, the burn function have an if statement to make sure the balance of the account is greater than or equal to the amount that is supposed to be burned.
+5. Burn function will destroy tokens. It will then subtract the value from the total supply and the address's balance.
+6. Lastly, the burn function has an if statement to make sure the balance of the account is greater than or equal to the amount that is supposed to be burned.
 
-
-## Getting Started
-## Executing program
+## Execution of the program
 This program is written using the Remix website at https://remix.ethereum.org/.
 After opening the website create a new file using the .sol extension.
 // SPDX-License-Identifier: MIT
@@ -60,10 +58,10 @@ contract MyToken {
 
 
 
-## Code compilation and deployment
+## Code Functionality
 To compile the code, click on the "Solidity Compiler" tab. Make sure the "Compiler" option is set to "0.8.4", and then click on the "Compile SolidityFinalAssesment.sol" button.
 
-After compiling,deploy the contract by clicking on the "Deploy & Run Transactions" tab. Select the "MyToken" contract from the menu , then click the "Deploy" button.
+After compiling, deploy the contract by clicking on the "Deploy & Run Transactions" tab. Select the "MyToken" contract from the menu , then click the "Deploy" button.
 
 Once the contract is deployed, you can interact with it by following the below mentioned steps:
 
