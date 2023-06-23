@@ -15,7 +15,9 @@ This program basically focuses on creating our own token and performing basic ta
 After opening the Remix website create a new file using the .sol extension and write the following code.
 
 // SPDX-License-Identifier: MIT
+
 pragma solidity 0.8.18;
+
 contract MyToken {   
     // public variables here
    
