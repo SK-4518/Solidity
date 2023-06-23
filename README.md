@@ -1,13 +1,13 @@
 
 # Solidity Beginner Assessment
-This Solidity program is a mint and burn program where we provide some basic reuired variables in to to get the resultant total supply after the successful execution of the program. The main idea is to get the hands-on experience in working with the Solidity programming language. 
+This Solidity program is a mint and burn program where we provide some basic required variables in to get the resultant total supply after the successful execution of the program. The main idea is to get hands-on experience in working with the Solidity programming language. 
 
 
 ## Description
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain.
-The contract have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply), a mapping of addresses to balances, a mint function that increases the total supply and the balance of the address by that amount,and a burn function, which works the opposite of the mint function, as it will destroy tokens. It will take an address and value just like the mint functions. It will then deduct the value from the total supply and from the balance of the address.Lastly, the burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
+The contract has public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply), a mapping of addresses to balances, a mint function that increases the total supply and the balance of the address by that amount, and a burn function, which works the opposite of the mint function, as it will destroy tokens. It will take an address and value just like the mint functions. It will then deduct the value from the total supply and the address's balance. Lastly, the burn function should have conditionals to make sure the balance of the account is greater than or equal to the amount that is supposed to be burned.
 ## Getting Started
-## 1.Executing program
+## 1. Executing program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
@@ -20,7 +20,7 @@ pragma solidity 0.8.18;
        REQUIREMENTS
   1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
  2. Your contract will have a mapping of addresses to balances (address => uint)
-3. You will have a mint function that takes two parameters: an address and a value. 
+3. You will have a mint function with two parameters: an address and a value. 
        The function then increases the total supply by that number and increases the balance 
        of the “sender” address by that amount
 4. Your contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. 
