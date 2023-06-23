@@ -1,6 +1,6 @@
 
 # Solidity Beginner Assessment
-This Solidity program is a mint and burn program where we provide some required variables in to get the resultant total supply after the successful execution of the program. The main idea is to get hands-on experience in working with the Solidity programming language. 
+This program basically focuses on creating our own token and performing basic tasks such as minting and burning the amount using the Solidity programming language with the help of the Remix online compiler. 
 
 
 ## Code Logic
@@ -12,8 +12,8 @@ This Solidity program is a mint and burn program where we provide some required 
 6. Lastly, the burn function has an if statement to make sure the balance of the account is greater than or equal to the amount that is supposed to be burned.
 
 ## Execution of the program
-This program is written using the Remix website at https://remix.ethereum.org/.
-After opening the website create a new file using the .sol extension.
+After opening the Remix website create a new file using the .sol extension and write the following code.
+
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 contract MyToken {   
@@ -59,11 +59,11 @@ contract MyToken {
 
 
 ## Code Functionality
-To compile the code, click on the "Solidity Compiler" tab. Make sure the "Compiler" option is set to "0.8.4", and then click on the "Compile SolidityFinalAssesment.sol" button.
+To compile the code, click on the "Solidity Compiler" tab and then click on the "Compile SolidityFinalAssesment.sol" button.
 
-After compiling, deploy the contract by clicking on the "Deploy & Run Transactions" tab. Select the "MyToken" contract from the menu , then click the "Deploy" button.
+After compiling, deploy the contract by clicking on the "Deploy & Run Transactions" tab. Select the "MyToken" contract from the menu, then click the "Deploy" button.
 
-Once the contract is deployed, you can interact with it by following the below mentioned steps:
+Once the contract is deployed, you can interact with it by following the below-mentioned steps:
 
 1 Pasting the  same account address in mint address, burn address, and balance address.
 
